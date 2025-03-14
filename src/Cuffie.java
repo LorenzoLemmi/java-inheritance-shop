@@ -28,6 +28,9 @@ public class Cuffie extends Prodotto {
         this.connessione = connessione;
     }
 
-    
+    @Override
+    public String toString() {
+        return "Cuffie [" + super.toString() + ", colore=" + colore + ", connessione=" 
+            + connessione + "]"; }
 
 }
