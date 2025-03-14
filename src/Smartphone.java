@@ -10,7 +10,6 @@ public class Smartphone extends Prodotto {
             this.codiceIMEI = codiceIMEI;
             this.quantitaDiMemoria = quantitaDiMemoria;
 
-            
     }
 
     public String getCodiceIMEI() {
