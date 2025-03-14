@@ -20,7 +20,7 @@ public class Televisore extends Prodotto {
         this.dimensioni = dimensioni;
     }
 
-    public String isIsSmart() {
+    public String isSmart() {
         return isSmart;
     }
 
