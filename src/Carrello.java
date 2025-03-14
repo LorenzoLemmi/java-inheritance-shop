@@ -9,14 +9,17 @@ public class Carrello {
         String sceltaProdotto = scan.nextLine().toLowerCase();
         System.out.println ("Quale è il codice del prodotto?");
         int codice = scan.nextInt();
+        scan.nextLine(); //IMPORTANTE
         System.out.println ("Quale è il nome del prodotto?");
         String nome = scan.nextLine();
         System.out.println ("Quale è la marca del prodotto?");
         String marca = scan.nextLine();
         System.out.println ("Quale è il prezzo del prodotto?");
         double prezzo = scan.nextDouble();
+        scan.nextLine(); //IMPORTANTE
         System.out.println ("Quale è il valore dell'IVA?");
         double iva = scan.nextDouble();
+        scan.nextLine(); //IMPORTANTE
 
         switch (sceltaProdotto) {
 
@@ -25,6 +28,7 @@ public class Carrello {
                 String codiceImei = scan.nextLine().toUpperCase();
                 System.out.println ("Quale è la quantità di memoria dello smartphone?");
                 int quantitaDiMemoria = scan.nextInt();
+                scan.nextLine(); //IMPORTANTE
 
                 Smartphone smartphone = new Smartphone (codice, nome, marca, prezzo,
                     iva, codiceImei, quantitaDiMemoria);
@@ -34,6 +38,7 @@ public class Carrello {
             case "televisore":
                 System.out.println ("Quali sono le dimensioni del televisore?");
                 int dimensioni = scan.nextInt();
+                scan.nextLine(); //IMPORTANTE
                 System.out.println ("Il televisore e' smart? Rispondi con 'smart' o 'non smart'");
                 String isSmart = scan.nextLine();
 
