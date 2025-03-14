@@ -33,6 +33,7 @@ public class Carrello {
                 Smartphone smartphone = new Smartphone (codice, nome, marca, prezzo,
                     iva, codiceImei, quantitaDiMemoria);
                 String smartphoneToString = smartphone.toString();
+                System.out.println (smartphoneToString);
                  break;
 
             case "televisore":
@@ -45,6 +46,7 @@ public class Carrello {
                 Televisore televisore = new Televisore (codice, nome, marca, prezzo,
                     iva, dimensioni, isSmart);
                 String televisoreToString = televisore.toString();
+                System.out.println (televisoreToString);
                 break;
 
             case "cuffie":
@@ -55,11 +57,14 @@ public class Carrello {
 
                 Cuffie cuffie = new Cuffie (codice, nome, marca, prezzo, iva, colore, connessione);
                 String cuffieToString = cuffie.toString();
+                System.out.println (cuffieToString);
                 break;
             default:
                 System.out.println ("Per favore inserisci uno smartphone, un televisore o delle cuffie.");
                 
         }
+
+        scan.close();
     }
 
 }
