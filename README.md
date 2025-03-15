@@ -1,4 +1,4 @@
-## JAVA INHERITANCE SHOP
+## Java Inheritance Shop
 
 Nell’esercizio di oggi riprendiamo Java Shop applicando le proprietà di incapsulamento ed ereditarietà che abbiamo visto nel frattempo.
 Nel progetto java-inheritance-shop creare la classe Prodotto che gestisce i prodotti dello shop.
