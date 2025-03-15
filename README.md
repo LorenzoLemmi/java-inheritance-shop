@@ -18,4 +18,5 @@ Lo shop gestisce diversi tipi di prodotto:
 - Smarphone, caratterizzati anche dal codice IMEI e dalla quantità di memoria
 - Televisori, caratterizzati dalle dimensioni e dalla proprietà di essere smart oppure no
 - Cuffie, caratterizzate dal colore e se sono wireless o cablate
+  
 Utilizzate l’ereditarietà per riutilizzare il codice di Prodotto nella stesura delle classi che gestiscono i vari sotto tipi di prodotto.
